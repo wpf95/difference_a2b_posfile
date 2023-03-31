@@ -7,3 +7,5 @@ b.file : is also your input file
 uniqa.file : is some pos just in a.file not in b.file
 uniqb.file : is some pos just in b.file bot in a.file
 same.file : is same pos in a.file and b.file
+
+good luck
