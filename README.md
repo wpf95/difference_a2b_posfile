@@ -1,6 +1,6 @@
 # difference_a2b_posfile
 a python script used to find difference or same pos between two pos file,you can see inputfile formate at inputfile.format  
-Suitable for small data volumes, not suitable for whole genomes.  
+Fast, but takes up a lot of memory. Suitable for small data volumes, not suitable for whole genomes.  
 
 usage: python difference_a2b_posfile a.file b.file uniqa.file uniqa.file same.file  
 a.file : is your input file  
