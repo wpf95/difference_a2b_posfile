@@ -1,3 +1,4 @@
+
 #usage:python chayia2b.py [a.file] [b.file] [uniqa.file] [uniqb.file] [same.file]
 import sys
 
@@ -29,7 +30,7 @@ for i in diff_a:
 for j in diff_b:
     diff_2.write(j.split("_")[0]+"\t"+j.split("_")[1]+"\n")
 for z in diff_same:
-    diff_2.write(z.split("_")[0]+"\t"+z.split("_")[1]+"\n")
+    samefile.write(z.split("_")[0]+"\t"+z.split("_")[1]+"\n")
 
 fo1.close()
 fo2.close()
